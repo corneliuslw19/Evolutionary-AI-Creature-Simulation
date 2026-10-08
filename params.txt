@@ -1,0 +1,26 @@
+
+---LINK PARAMETERS---
+link-shape -> cylinder / box / etc
+link-length -> 0-1
+link-radius -> 0-1
+link-recurrence -> 1-4
+link-mass -> 0-1
+
+
+---JOINT PARAMETERS---
+joint-type -> revolute / fixed / etc
+joint-parent -> number of LINKS (Parent and Child connection between LINKS)
+joint-axis XYZ -> [1,0,0] OR [0,1,0] OR [0,0,1]
+joint-origin RPY 1 -> 0-two-pi
+joint-origin RPY 2 -> 0-two-pi
+joint-origin RPY 3 -> 0-two-pi
+joint-origin XYZ 1 -> 0-1
+joint-origin XYZ 2 -> 0-1
+joint-origin XYZ 3 -> 0-1
+
+
+
+---CONTROL PARAMETERS---
+control-waveform: sine / pulse / ramp
+control-amp: 0-0.25
+control-freq: 0-1

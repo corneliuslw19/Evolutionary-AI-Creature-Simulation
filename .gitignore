@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Editor settings
+.vscode/
+
+# Temporary simulation files
+temp*.urdf
+test.urdf
+
+# Archived experiments
+Elite archives/
